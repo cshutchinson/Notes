@@ -1,7 +1,7 @@
 {
-  "name": "twilightFactor",
+  "name": "hp48sxSim",
   "version": "0.0.1",
-  "description": "twilightFactor.com",
+  "description": "hp48sx",
   "main": "''",
   "scripts": {
     "start": "webpack-dev-server"

@@ -1,8 +1,8 @@
 import React from 'react';
-import Intro from './Intro.jsx';
+import Note from './Note.jsx';
 
 export default class App extends React.Component {
 	render() {
-        return <Intro />;
+        return <Note />;
     }
 }

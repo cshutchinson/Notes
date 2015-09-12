@@ -54,7 +54,7 @@ if(TARGET === 'start' || !TARGET) {
         },
         plugins: [
             new HtmlwebpackPlugin({
-                title: 'Twilight Factor'
+                title: 'hp48sx Demo'
             }),
             new webpack.HotModuleReplacementPlugin(),
             new webpack.ProvidePlugin({

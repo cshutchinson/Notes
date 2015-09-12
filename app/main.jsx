@@ -1,9 +1,9 @@
 
+import './main.css';
 import React from 'react';	
 import App from './components/App.jsx';
 
-	require('bootstrap/less/bootstrap.less');
-// require('./main.css');
+
 
 main();
 
