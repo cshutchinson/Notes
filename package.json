@@ -1,37 +1,46 @@
 {
-  "name": "react-webpack-babel",
-  "version": "0.0.2",
-  "description": "React Webpack Babel Starter Kit",
+  "name": "twilightFactor",
+  "version": "0.0.1",
+  "description": "twilightFactor.com",
   "main": "''",
   "scripts": {
-    "build": "webpack --progress --profile --colors",
-    "dev": "webpack-dev-server --progress --profile --colors --hot"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": ""
   },
   "keywords": [
     "React",
     "Webpack",
-    "Babel",
-    "Starter",
-    "template"
+    "Babel"
   ],
-  "author": "Ali Al Dallal",
+  "author": "Christopher Hutchinson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alicoding/react-webpack-babel/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "homepage": "",
   "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
     "react": "^0.13.3"
   },
   "devDependencies": {
-    "babel-core": "^5.5.8",
-    "babel-loader": "^5.1.4",
-    "react-hot-loader": "^1.2.7",
-    "webpack-dev-server": "^1.9.0",
-    "webpack": "^1.9.11"
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.16.0",
+    "eslint-plugin-react": "^3.2.3",
+    "html-webpack-plugin": "^1.6.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^2.0.0-alpha-2",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "less-loader": "^2.2.0",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1",
+    "webpack-merge": "^0.1.3"
   }
 }
