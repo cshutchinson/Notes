@@ -1,7 +1,7 @@
 {
-  "name": "hp48sxSim",
+  "name": "notes",
   "version": "0.0.1",
-  "description": "hp48sx",
+  "description": "notes implementation es6 / react / babel",
   "main": "''",
   "scripts": {
     "start": "webpack-dev-server"
@@ -22,6 +22,7 @@
   },
   "homepage": "",
   "dependencies": {
+    "array.prototype.findindex": "^1.0.0",
     "bootstrap": "^3.3.5",
     "jquery": "^2.1.4",
     "node-uuid": "^1.4.3",
