@@ -54,7 +54,7 @@ if(TARGET === 'start' || !TARGET) {
         },
         plugins: [
             new HtmlwebpackPlugin({
-                title: 'hp48sx Demo'
+                title: 'Notes'
             }),
             new webpack.HotModuleReplacementPlugin(),
             new webpack.ProvidePlugin({
